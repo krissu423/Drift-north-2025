@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 242,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -13,9 +13,9 @@
     "folderProject": false,
     "orientation": "default",
     "packageName": "com.example.gamename",
-    "pixelsRounding": false,
+    "pixelsRounding": true,
     "projectUuid": "035d88ff-72c8-45f0-873d-12e77eabe680",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "version": "1.0.0",
@@ -28,7 +28,35 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -62,7 +90,72 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "file": "Assets/Landscape/Sand/stacked/sand-stacked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Landscape/Sand/stacked/sand-stacked-TM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-TM.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Landscape/Sand/stacked/sand-stacked-BM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-BM.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Landscape/Sand/stacked/sand-stacked-TL.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-TL.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Landscape/Sand/stacked/sand-stacked-BL.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-BL.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Landscape/Sand/stacked/sand-stacked-MR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-MR.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Landscape/Sand/stacked/sand-stacked-ML.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-ML.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Characters/Reindeer/reindeer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Characters\\Reindeer\\reindeer.png",
+        "smoothed": false,
+        "userAdded": false
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -83,26 +176,1031 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
+        "gridWidth": 16,
+        "gridHeight": 16,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.3645833333333333,
-        "windowMask": false
+        "snap": true,
+        "zoomFactor": 1.7327683944531012,
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
-      "variables": [],
-      "instances": [],
-      "objects": [],
+      "variables": [
+        {
+          "name": "CamX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CamY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Distance",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MaxDistance",
+          "type": "number",
+          "value": 800
+        },
+        {
+          "name": "TargetZoom",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "CurrentZoom",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "MinZoom",
+          "type": "number",
+          "value": 0.6
+        },
+        {
+          "name": "MaxZoom",
+          "type": "number",
+          "value": 1.2
+        },
+        {
+          "name": "LerpSpeed",
+          "type": "number",
+          "value": 0.05
+        },
+        {
+          "name": "Zoom",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_M",
+          "persistentUuid": "e4b354f0-02e4-400a-bca2-401245d10d46",
+          "width": 624,
+          "x": 576,
+          "y": 576,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_TC",
+          "persistentUuid": "f494a9fb-2f45-4d5f-9a69-b428331c1784",
+          "width": 0,
+          "x": 560,
+          "y": 560,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_TC",
+          "persistentUuid": "a8ed9f39-57f4-40aa-8d45-9148c0bdce06",
+          "width": 0,
+          "x": 1200,
+          "y": 560,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_BC",
+          "persistentUuid": "f20aab68-26f1-435b-9c85-556ece246554",
+          "width": 0,
+          "x": 560,
+          "y": 592,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_BC",
+          "persistentUuid": "2c16e217-dff5-46fe-a8ed-d2a6552e6c88",
+          "width": 0,
+          "x": 1200,
+          "y": 592,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_TM",
+          "persistentUuid": "59f19d91-91a8-46ef-bc9e-7ac5a3091f99",
+          "width": 624,
+          "x": 576,
+          "y": 560,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_BM",
+          "persistentUuid": "ee6f1a17-b4c5-4f80-b5fa-573cbf712881",
+          "width": 624,
+          "x": 576,
+          "y": 592,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_MR",
+          "persistentUuid": "ac55857e-012d-4663-9d6a-8b622cb05319",
+          "width": 0,
+          "x": 1200,
+          "y": 576,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_ML",
+          "persistentUuid": "e95ccb13-e046-450d-9b7f-d8ec294889be",
+          "width": 0,
+          "x": 560,
+          "y": 576,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Reindeer",
+          "persistentUuid": "7458cb86-0680-4c9a-8d3f-dba9eadacbd0",
+          "width": 0,
+          "x": 1056,
+          "y": 512,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Octopus",
+          "persistentUuid": "a8f11fc3-2493-4741-b675-735d57db1b05",
+          "width": 16,
+          "x": 592,
+          "y": 528,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_M",
+          "persistentUuid": "4b1be996-e725-48f6-a796-96228e20c732",
+          "width": 32,
+          "x": 1152,
+          "y": 528,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_M",
+          "persistentUuid": "57f5a32e-fded-417e-86fc-7d8aeeea38ec",
+          "width": 32,
+          "x": 1184,
+          "y": 496,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_M",
+          "persistentUuid": "7330646e-ef08-4e09-b3e1-b99f37f13dfa",
+          "width": 0,
+          "x": 1136,
+          "y": 544,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "sand_stacked_M",
+          "texture": "Assets\\Landscape\\Sand\\stacked\\sand-stacked.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "sand_stacked_TC",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-TL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "sand_stacked_BC",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-BL.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "sand_stacked_TM",
+          "texture": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-TM.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "sand_stacked_BM",
+          "texture": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-BM.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "sand_stacked_ML",
+          "texture": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-ML.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "sand_stacked_MR",
+          "texture": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-MR.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Reindeer",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "jumpSpeed": 350,
+              "jumpSustainTime": 0.2,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Reindeer\\reindeer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 29,
+                            "y": 1
+                          },
+                          {
+                            "x": 29,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Octopus",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "jumpSpeed": 300,
+              "jumpSustainTime": 0,
+              "ladderClimbingSpeed": 150,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "ignoreDefaultControls": true,
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Reindeer\\reindeer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 29,
+                            "y": 1
+                          },
+                          {
+                            "x": 29,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Reindeer"
+          },
+          {
+            "objectName": "Octopus"
+          },
+          {
+            "objectName": "sand_stacked_M"
+          },
+          {
+            "objectName": "sand_stacked_TM"
+          },
+          {
+            "objectName": "sand_stacked_BM"
+          },
+          {
+            "objectName": "sand_stacked_ML"
+          },
+          {
+            "objectName": "sand_stacked_MR"
+          },
+          {
+            "objectName": "sand_stacked_TC"
+          },
+          {
+            "objectName": "sand_stacked_BC"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CamX",
+                "=",
+                "(Reindeer.X() + Octopus.X()) / 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CamY",
+                "=",
+                "(Reindeer.Y() + Octopus.Y()) / 2\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Variable(CamX)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Variable(CamY)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Distance",
+                "=",
+                "abs(Reindeer.X()-Octopus.X())"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Zoom",
+                "=",
+                "abs(Reindeer.X() - Octopus.X())\n\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "Variable(MaxZoom) - Variable(Distance) / Variable(MaxDistance) * (Variable(MaxZoom) - Variable(MinZoom))\n",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Reindeer",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Reindeer",
+                "Flippable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Reindeer",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Reindeer",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateUpKey"
+              },
+              "parameters": [
+                "Reindeer",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Reindeer",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"d\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Octopus",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Octopus",
+                "Flippable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Octopus",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Octopus",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"w\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateUpKey"
+              },
+              "parameters": [
+                "Octopus",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Octopus",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -169,7 +1267,40 @@
           ]
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
