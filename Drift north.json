@@ -438,6 +438,22 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/8453897a00e610fec59d71df2332d63fe8355089cccebd28396a2135c42873b4_Door.png",
           "name": "Door.png"
         }
+      },
+      {
+        "file": "reindeer1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "reindeer1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "octopus1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "octopus1.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -469,7 +485,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.0891751186210072,
+        "zoomFactor": 1.163868265831194,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1619,7 +1635,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Characters\\Reindeer\\reindeer.png",
+                      "image": "reindeer1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1636,19 +1652,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 1
+                            "y": 0
                           },
                           {
-                            "x": 29,
-                            "y": 1
+                            "x": 32,
+                            "y": 0
                           },
                           {
-                            "x": 29,
-                            "y": 32
+                            "x": 32,
+                            "y": 31
                           },
                           {
                             "x": 0,
-                            "y": 32
+                            "y": 31
                           }
                         ]
                       ]
@@ -1665,7 +1681,13 @@
           "name": "Octopus",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "throwState",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -1701,7 +1723,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Characters\\Reindeer\\reindeer.png",
+                      "image": "octopus1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1718,19 +1740,19 @@
                         [
                           {
                             "x": 0,
-                            "y": 1
+                            "y": 2
                           },
                           {
-                            "x": 29,
-                            "y": 1
+                            "x": 32,
+                            "y": 2
                           },
                           {
-                            "x": 29,
-                            "y": 32
+                            "x": 32,
+                            "y": 31
                           },
                           {
                             "x": 0,
-                            "y": 32
+                            "y": 31
                           }
                         ]
                       ]
@@ -3215,6 +3237,154 @@
                 "Box2",
                 "180",
                 "200",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Reindeer",
+                "Octopus",
+                "",
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "throwState",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "throwState",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "throwState",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "Octopus",
+                "Reindeer",
+                "10",
+                "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::LinkObjects"
+              },
+              "parameters": [
+                "",
+                "Reindeer",
+                "Octopus"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "throwState",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "throwState",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "LinkedObjects::RemoveLinkBetween"
+              },
+              "parameters": [
+                "",
+                "Reindeer",
+                "Octopus"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Octopus",
+                "-90\n",
+                "1000\n\n",
                 "0"
               ]
             }
