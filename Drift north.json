@@ -539,7 +539,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 5.910900496575207,
+        "zoomFactor": 1.328972692326808,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1409,13 +1409,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
           "name": "ground_hitbox",
           "persistentUuid": "e79f4e15-b09c-43d2-80ef-0231c8356403",
-          "width": 0,
+          "width": 16,
           "x": 928,
           "y": 560,
           "zOrder": 54,
@@ -1585,16 +1586,238 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 10,
           "keepRatio": true,
           "layer": "",
           "name": "crate_hitbox_placeholder",
           "persistentUuid": "4324b9af-6591-471c-a91e-f2544e13ac95",
-          "width": 0,
+          "width": 20,
           "x": 928,
           "y": 512,
           "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "0feb933a-a9fb-49d5-ac77-f1e62f880358",
+          "width": 16,
+          "x": 912,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "c79a33ad-2279-49d7-849c-a308c06ae8be",
+          "width": 16,
+          "x": 896,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "f99e977c-ef31-45be-81b8-b4226f5b41ac",
+          "width": 16,
+          "x": 880,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "c5b00be0-2532-49e8-9f4d-0bd04127f9d5",
+          "width": 16,
+          "x": 864,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "10ed075c-64a8-44cb-b8f2-adad065b080c",
+          "width": 16,
+          "x": 848,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "ebfc67f4-cb2b-44de-9393-059f008b73b9",
+          "width": 16,
+          "x": 848,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "c44efd7c-2461-4586-8209-921904aa1991",
+          "width": 16,
+          "x": 832,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "1b50bbfd-98e5-4cb6-8171-14bbd301a03d",
+          "width": 16,
+          "x": 816,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "3265a67b-8693-4490-8e6d-783e4d6b399a",
+          "width": 16,
+          "x": 800,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "f8e9cbe7-a161-4bb5-9ab1-2a1a7c03941e",
+          "width": 16,
+          "x": 784,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "41e1c0c8-bbf5-4bbc-8015-45f0a356543b",
+          "width": 16,
+          "x": 768,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "3500f757-f1bc-4e8b-a3ab-eccbe3e0ecf9",
+          "width": 16,
+          "x": 752,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "5f21f116-74b0-4ec4-803c-1a6ff15a6e1f",
+          "width": 16,
+          "x": 736,
+          "y": 560,
+          "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1842,6 +2065,7 @@
           "effects": [],
           "behaviors": [
             {
+              "canGrabWithoutMoving": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "jumpSpeed": 350,
@@ -1849,7 +2073,6 @@
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
               "deceleration": 1500,
               "gravity": 1000,
               "ignoreDefaultControls": true,
@@ -3038,10 +3261,10 @@
               "masks": 1
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -3129,10 +3352,10 @@
               "masks": 1
             },
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -4128,8 +4351,34 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "crate_movable",
+                "water_hitbox",
+                "water_hitbox",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "crate_movable",
+                "=",
+                "spawn_area.X()",
+                "=",
+                "spawn_area.Y()"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
