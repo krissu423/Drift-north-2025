@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -468,6 +468,46 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "Assets/crate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\crate.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Util/invis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Util\\invis.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Util/invis-placeholder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Util\\invis-placeholder.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Util/crate-hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Util\\crate-hitbox.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -499,7 +539,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8926462115230305,
+        "zoomFactor": 5.910900496575207,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -646,23 +686,6 @@
           "x": 1200,
           "y": 592,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "59f19d91-91a8-46ef-bc9e-7ac5a3091f99",
-          "width": 624,
-          "x": 576,
-          "y": 560,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -854,23 +877,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 256,
-          "keepRatio": true,
-          "layer": "background",
-          "name": "background_color_desert",
-          "persistentUuid": "103b94c0-53ad-4270-962c-56a5897ee0c4",
-          "width": 656,
-          "x": 560,
-          "y": 352,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 16,
           "keepRatio": true,
           "layer": "",
@@ -962,22 +968,6 @@
           "x": 208,
           "y": 432,
           "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Box2",
-          "persistentUuid": "81dae34e-3c07-443e-9b8e-edac8a7d9224",
-          "width": 0,
-          "x": 964,
-          "y": 536,
-          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1380,6 +1370,231 @@
           "x": 952,
           "y": 448,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "crate_movable",
+          "persistentUuid": "678e3599-b87c-47c1-8708-66b685e245c7",
+          "width": 0,
+          "x": 928,
+          "y": 512,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_stacked_TM",
+          "persistentUuid": "e0c0d762-3260-4106-8f72-5c0ae696b080",
+          "width": 624,
+          "x": 576,
+          "y": 560,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "e79f4e15-b09c-43d2-80ef-0231c8356403",
+          "width": 0,
+          "x": 928,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "9d0b077e-6c27-491c-be33-9ca543b18706",
+          "width": 0,
+          "x": 1008,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "c3ff344f-138d-473c-bff3-e41dd0094bfe",
+          "width": 0,
+          "x": 992,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "e954bdc2-3f87-43a5-8353-bc5fb3432fe7",
+          "width": 0,
+          "x": 976,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "8817683d-a88d-4666-bca1-f886b4512587",
+          "width": 0,
+          "x": 960,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "579fee08-454d-4b54-991b-3813a9e892f4",
+          "width": 0,
+          "x": 944,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "02791fa2-6c20-4e20-969e-a89c16f52a41",
+          "width": 0,
+          "x": 1088,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "992945a0-9801-4ace-b50d-3c320abf5e91",
+          "width": 0,
+          "x": 1072,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "1d2de0d6-07d4-421e-9b53-5564d529d7de",
+          "width": 0,
+          "x": 1056,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "54f06eb6-625e-4271-a71d-fb94af2521cd",
+          "width": 0,
+          "x": 1040,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "285b9ab5-11f8-4015-a838-f47928919af0",
+          "width": 0,
+          "x": 1024,
+          "y": 560,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "crate_hitbox_placeholder",
+          "persistentUuid": "4324b9af-6591-471c-a91e-f2544e13ac95",
+          "width": 0,
+          "x": 928,
+          "y": 512,
+          "zOrder": 55,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2778,6 +2993,259 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "crate_movable",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.5,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\crate.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ground_hitbox",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 16,
+              "shapeDimensionB": 16,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Util\\invis-placeholder.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "crate_hitbox_placeholder",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Util\\crate-hitbox.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 0
+                          },
+                          {
+                            "x": 20,
+                            "y": 10
+                          },
+                          {
+                            "x": 0,
+                            "y": 10
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2794,6 +3262,9 @@
           },
           {
             "objectName": "sand_stacked_TM"
+          },
+          {
+            "objectName": "ground_hitbox"
           },
           {
             "objectName": "sand_stacked_BM"
@@ -2833,6 +3304,15 @@
           },
           {
             "objectName": "Door"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "crate_movable"
+          },
+          {
+            "objectName": "crate_hitbox_placeholder"
           }
         ]
       },
@@ -2914,6 +3394,26 @@
                 "Variable(MaxZoom) - Variable(Distance) / Variable(MaxDistance) * (Variable(MaxZoom) - Variable(MinZoom))\n",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "crate_hitbox_placeholder",
+                "=",
+                "crate_movable.X() - 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "crate_hitbox_placeholder",
+                "=",
+                "crate_movable.Y() + 4"
               ]
             }
           ]
@@ -3523,6 +4023,113 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Reindeer",
+                "crate_hitbox_placeholder",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Reindeer",
+                "<=",
+                "crate_movable.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForce"
+              },
+              "parameters": [
+                "crate_movable",
+                "Physics2",
+                "1",
+                "0",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Reindeer",
+                "crate_hitbox_placeholder",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Reindeer",
+                ">=",
+                "crate_movable.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForce"
+              },
+              "parameters": [
+                "crate_movable",
+                "Physics2",
+                "-1",
+                "0",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -3660,6 +4267,15 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "worldScale": 100,
+          "scaleX": 100,
+          "scaleY": 100
         },
         {
           "name": "Platform",
