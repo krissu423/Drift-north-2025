@@ -539,7 +539,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.328972692326808,
+        "zoomFactor": 2.414188038020324,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -578,12 +578,12 @@
         {
           "name": "MinZoom",
           "type": "number",
-          "value": 0.6
+          "value": 1.5
         },
         {
           "name": "MaxZoom",
           "type": "number",
-          "value": 1.2
+          "value": 3
         },
         {
           "name": "LerpSpeed",
@@ -2065,9 +2065,9 @@
           "effects": [],
           "behaviors": [
             {
-              "canGrabWithoutMoving": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "canGrabWithoutMoving": true,
               "jumpSpeed": 350,
               "jumpSustainTime": 0.2,
               "acceleration": 1500,
@@ -4285,15 +4285,12 @@
           "actions": [
             {
               "type": {
-                "value": "Physics2::ApplyForce"
+                "value": "MettreX"
               },
               "parameters": [
                 "crate_movable",
-                "Physics2",
-                "1",
-                "0",
-                "",
-                ""
+                "=",
+                "crate_movable.X() + 1"
               ]
             }
           ]
@@ -4336,15 +4333,12 @@
           "actions": [
             {
               "type": {
-                "value": "Physics2::ApplyForce"
+                "value": "MettreX"
               },
               "parameters": [
                 "crate_movable",
-                "Physics2",
-                "-1",
-                "0",
-                "",
-                ""
+                "=",
+                "crate_movable.X() - 1"
               ]
             }
           ]
