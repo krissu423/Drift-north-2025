@@ -539,7 +539,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.414188038020324,
+        "zoomFactor": 1.7327683944531125,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -604,6 +604,11 @@
           "name": "HasKey",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Gravity",
+          "type": "number",
+          "value": 800
         }
       ],
       "instances": [
@@ -1367,7 +1372,7 @@
           "name": "Door",
           "persistentUuid": "9d6dfcd1-8fac-449c-b5b7-ad3d413240f8",
           "width": 120,
-          "x": 952,
+          "x": 976,
           "y": 448,
           "zOrder": 0,
           "numberProperties": [],
@@ -1411,183 +1416,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "e79f4e15-b09c-43d2-80ef-0231c8356403",
-          "width": 16,
-          "x": 928,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "9d0b077e-6c27-491c-be33-9ca543b18706",
-          "width": 0,
-          "x": 1008,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "c3ff344f-138d-473c-bff3-e41dd0094bfe",
-          "width": 0,
-          "x": 992,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "e954bdc2-3f87-43a5-8353-bc5fb3432fe7",
-          "width": 0,
-          "x": 976,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "8817683d-a88d-4666-bca1-f886b4512587",
-          "width": 0,
-          "x": 960,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "579fee08-454d-4b54-991b-3813a9e892f4",
-          "width": 0,
-          "x": 944,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "02791fa2-6c20-4e20-969e-a89c16f52a41",
-          "width": 0,
-          "x": 1088,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "992945a0-9801-4ace-b50d-3c320abf5e91",
-          "width": 0,
-          "x": 1072,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "1d2de0d6-07d4-421e-9b53-5564d529d7de",
-          "width": 0,
-          "x": 1056,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "54f06eb6-625e-4271-a71d-fb94af2521cd",
-          "width": 0,
-          "x": 1040,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "285b9ab5-11f8-4015-a838-f47928919af0",
-          "width": 0,
-          "x": 1024,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 10,
           "keepRatio": true,
           "layer": "",
@@ -1605,219 +1433,49 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "0feb933a-a9fb-49d5-ac77-f1e62f880358",
-          "width": 16,
-          "x": 912,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "c79a33ad-2279-49d7-849c-a308c06ae8be",
-          "width": 16,
-          "x": 896,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "f99e977c-ef31-45be-81b8-b4226f5b41ac",
-          "width": 16,
-          "x": 880,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "c5b00be0-2532-49e8-9f4d-0bd04127f9d5",
-          "width": 16,
-          "x": 864,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "10ed075c-64a8-44cb-b8f2-adad065b080c",
-          "width": 16,
-          "x": 848,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "ebfc67f4-cb2b-44de-9393-059f008b73b9",
-          "width": 16,
-          "x": 848,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "c44efd7c-2461-4586-8209-921904aa1991",
-          "width": 16,
-          "x": 832,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "1b50bbfd-98e5-4cb6-8171-14bbd301a03d",
-          "width": 16,
-          "x": 816,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "3265a67b-8693-4490-8e6d-783e4d6b399a",
-          "width": 16,
-          "x": 800,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "f8e9cbe7-a161-4bb5-9ab1-2a1a7c03941e",
-          "width": 16,
-          "x": 784,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "41e1c0c8-bbf5-4bbc-8015-45f0a356543b",
-          "width": 16,
-          "x": 768,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "3500f757-f1bc-4e8b-a3ab-eccbe3e0ecf9",
-          "width": 16,
-          "x": 752,
-          "y": 560,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
+          "height": 48,
           "keepRatio": true,
           "layer": "",
           "name": "ground_hitbox",
           "persistentUuid": "5f21f116-74b0-4ec4-803c-1a6ff15a6e1f",
-          "width": 16,
-          "x": 736,
+          "width": 656,
+          "x": 560,
           "y": 560,
           "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 112,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "8ffc71a1-a415-4bd9-b3e2-8cff3b56a557",
+          "width": 16,
+          "x": 624,
+          "y": 432,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "3fcafc1b-b577-4d5d-bf8a-45da2f86e7d0",
+          "width": 416,
+          "x": 208,
+          "y": 432,
+          "zOrder": 57,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2061,7 +1719,38 @@
           "name": "Reindeer",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "isHolding",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "throwDirX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "throwDirY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "throwSpeed",
+              "type": "number",
+              "value": 600
+            },
+            {
+              "name": "canMove",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "name": "isHolding2",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -2148,6 +1837,31 @@
               "name": "throwState",
               "type": "boolean",
               "value": false
+            },
+            {
+              "name": "isCarried",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "isFlying",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "vx",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "vy",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "canMove",
+              "type": "boolean",
+              "value": true
             }
           ],
           "effects": [],
@@ -3336,8 +3050,8 @@
               "fixedRotation": true,
               "canSleep": true,
               "shape": "Box",
-              "shapeDimensionA": 16,
-              "shapeDimensionB": 16,
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
               "shapeOffsetX": 0,
               "shapeOffsetY": 0,
               "polygonOrigin": "Center",
@@ -3546,6 +3260,44 @@
           "actions": [
             {
               "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "crate_hitbox_placeholder",
+                "=",
+                "crate_movable.X() - 2"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "crate_hitbox_placeholder",
+                "=",
+                "crate_movable.Y() + 4"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "isCarried",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -3618,25 +3370,103 @@
                 "",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "MettreX"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "crate_hitbox_placeholder",
+                "Octopus",
+                "isCarried",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CamX",
                 "=",
-                "crate_movable.X() - 2"
+                "(Reindeer.X() + Octopus.X()) / 2"
               ]
             },
             {
               "type": {
-                "value": "MettreY"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "crate_hitbox_placeholder",
+                "CamY",
                 "=",
-                "crate_movable.Y() + 4"
+                "Reindeer.Y() + 8"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Variable(CamX)",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "Variable(CamY)",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "canMove",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Reindeer",
+                "PlatformerObject"
               ]
             }
           ]
@@ -3655,15 +3485,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateRightKey"
-              },
-              "parameters": [
-                "Reindeer",
-                "PlatformerObject"
-              ]
-            },
             {
               "type": {
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
@@ -3687,6 +3508,17 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "canMove",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -3698,7 +3530,23 @@
                 "Reindeer",
                 "PlatformerObject"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
@@ -3721,6 +3569,17 @@
               "parameters": [
                 "",
                 "\"Up\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "canMove",
+                "True",
+                ""
               ]
             }
           ],
@@ -3756,6 +3615,17 @@
                 "",
                 "\"d\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "canMove",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -3767,7 +3637,23 @@
                 "Octopus",
                 "PlatformerObject"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"d\""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
@@ -3791,6 +3677,17 @@
                 "",
                 "\"a\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "canMove",
+                "True",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -3802,7 +3699,23 @@
                 "Octopus",
                 "PlatformerObject"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "FlippableCapability::FlippableBehavior::FlipX"
@@ -3825,6 +3738,17 @@
               "parameters": [
                 "",
                 "\"w\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "canMove",
+                "True",
+                ""
               ]
             }
           ],
@@ -3916,75 +3840,35 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Reindeer",
-                "Box2",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "KeyFromTextPressed"
               },
               "parameters": [
                 "",
-                "\"Right\""
+                "\"f\""
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Box2",
-                "0",
-                "200",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
                 "Reindeer",
-                "Box2",
-                "",
-                "",
+                "canMove",
+                "False",
                 ""
               ]
             },
             {
               "type": {
-                "value": "KeyFromTextPressed"
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "",
-                "\"Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Box2",
-                "180",
-                "200",
-                "0"
+                "Octopus",
+                "canMove",
+                "False",
+                ""
               ]
             }
           ]
@@ -4018,8 +3902,8 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Octopus",
-                "throwState",
+                "Reindeer",
+                "isHolding",
                 "False",
                 ""
               ]
@@ -4032,9 +3916,273 @@
               },
               "parameters": [
                 "Octopus",
-                "throwState",
+                "isCarried",
                 "True",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "isHolding",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "isFlying",
+                "False",
+                "fa"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "vx",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "vy",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "throwDirX",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "throwDirY",
+                "=",
+                "-1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "isHolding",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "throwDirX",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "isHolding",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "throwDirX",
+                "=",
+                "-1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "isHolding",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "isCarried",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "isHolding",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "isFlying",
+                "True",
+                "fa"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Reindeer",
+                "canMove",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "canMove",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "vx",
+                "=",
+                "Reindeer.Variable(throwDirX)*Reindeer.Variable(throwSpeed)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "vy",
+                "=",
+                "Reindeer.Variable(throwDirY)*Reindeer.Variable(throwSpeed)"
               ]
             }
           ]
@@ -4048,7 +4196,7 @@
               },
               "parameters": [
                 "Octopus",
-                "throwState",
+                "isCarried",
                 "True",
                 ""
               ]
@@ -4057,23 +4205,123 @@
           "actions": [
             {
               "type": {
-                "value": "MettreAutour"
+                "value": "MettreX"
               },
               "parameters": [
                 "Octopus",
-                "Reindeer",
-                "10",
-                "300"
+                "=",
+                "Reindeer.X() + 8"
               ]
             },
             {
               "type": {
-                "value": "LinkedObjects::LinkObjects"
+                "value": "MettreY"
               },
               "parameters": [
+                "Octopus",
+                "=",
+                "Reindeer.Y() + 8"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "isFlying",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "Octopus",
+                "+",
+                "Octopus.Variable(vx) * TimeDelta()\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "Octopus",
+                "+",
+                "Octopus.Variable(vy) * TimeDelta()\n"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "vy",
+                "+",
+                "Gravity * TimeDelta()\n"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Octopus",
+                "ground_hitbox",
                 "",
-                "Reindeer",
-                "Octopus"
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "vy",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "vx",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "isFlying",
+                "False",
+                "fa"
               ]
             }
           ]
