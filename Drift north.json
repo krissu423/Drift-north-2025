@@ -884,6 +884,76 @@
         "name": "Assets\\Area-BG\\t0jyLw.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "../../../../Downloads/slimejump-6913(1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\slimejump-6913(1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sfx/slimejump-6913(1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sfx\\slimejump-6913(1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sfx/simple-whoosh-382724.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sfx\\simple-whoosh-382724.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sfx/the-call-of-red-stag_animal-sound-145885.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sfx\\the-call-of-red-stag_animal-sound-145885.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sfx/drop-sound-effect-240899.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sfx\\drop-sound-effect-240899.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sfx/the-call-of-red-stag_animal-sound-145885.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sfx\\the-call-of-red-stag_animal-sound-145885.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sfx/mystical-music-54294.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sfx\\mystical-music-54294.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -915,7 +985,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8353591827060131,
+        "zoomFactor": 0.3768772036750985,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -5690,10 +5760,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -6841,6 +6911,18 @@
                 "=",
                 "spawn_area.Y()"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Assets\\Sfx\\the-call-of-red-stag_animal-sound-145885.wav",
+                "",
+                "",
+                ""
+              ]
             }
           ]
         },
@@ -6871,6 +6953,18 @@
                 "spawn_area.X()",
                 "=",
                 "spawn_area.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Assets\\Sfx\\drop-sound-effect-240899.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -7765,6 +7859,91 @@
                 "Physics2",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "crate_movable",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "Octopus",
+                "\"w\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Assets\\Sfx\\slimejump-6913(1).mp3",
+                "no",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextJustPressed"
+              },
+              "parameters": [
+                "",
+                "\"Up\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Assets\\Sfx\\simple-whoosh-382724.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Assets\\Sfx\\mystical-music-54294.mp3",
+                "",
+                "1",
+                ""
               ]
             }
           ]
