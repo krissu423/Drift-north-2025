@@ -954,6 +954,102 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/spawn_area24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "spawn_area24",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -985,7 +1081,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3768772036750985,
+        "zoomFactor": 1.4201106106002237,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4434,7 +4530,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area",
+                      "image": "spawn_area13",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4470,7 +4566,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area2",
+                      "image": "spawn_area14",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4506,7 +4602,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area3",
+                      "image": "spawn_area15",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4542,7 +4638,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area4",
+                      "image": "spawn_area16",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4578,7 +4674,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area5",
+                      "image": "spawn_area17",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4614,7 +4710,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area6",
+                      "image": "spawn_area18",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4650,7 +4746,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area7",
+                      "image": "spawn_area19",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4686,7 +4782,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area8",
+                      "image": "spawn_area20",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4722,7 +4818,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area9",
+                      "image": "spawn_area21",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4758,7 +4854,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area10",
+                      "image": "spawn_area22",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4794,7 +4890,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area11",
+                      "image": "spawn_area23",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4830,7 +4926,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "spawn_area12",
+                      "image": "spawn_area24",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
