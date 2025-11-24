@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 242,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -530,7 +530,7 @@
       "title": "",
       "v": 220,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
@@ -538,10 +538,9 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.7327683944531125,
-        "windowMask": false,
-        "selectedLayer": ""
+        "snap": false,
+        "zoomFactor": 1.373786090179693,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [
@@ -1422,7 +1421,7 @@
           "name": "crate_hitbox_placeholder",
           "persistentUuid": "4324b9af-6591-471c-a91e-f2544e13ac95",
           "width": 20,
-          "x": 928,
+          "x": 926,
           "y": 512,
           "zOrder": 55,
           "numberProperties": [],
@@ -1476,6 +1475,96 @@
           "x": 208,
           "y": 432,
           "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "water_hitbox",
+          "opacity": 0,
+          "persistentUuid": "86d57e7b-6b0f-4610-b411-a9013bbe2fc3",
+          "width": 1792,
+          "x": 576,
+          "y": 704,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "invisible_hitbox",
+          "opacity": 0,
+          "persistentUuid": "7524d439-4d9b-4606-b605-d4fb2053c880",
+          "width": 30,
+          "x": 617,
+          "y": 528,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "invisible_hitbox",
+          "opacity": 0,
+          "persistentUuid": "24cb5638-db70-4986-9627-6c0de875395b",
+          "width": 52,
+          "x": 1161,
+          "y": 537,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "invisible_hitbox",
+          "opacity": 0,
+          "persistentUuid": "07000999-d045-4734-adec-34e64fee424a",
+          "width": 14,
+          "x": 1193,
+          "y": 505,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "keepRatio": true,
+          "layer": "",
+          "name": "invisible_hitbox",
+          "opacity": 0,
+          "persistentUuid": "73464cd5-030c-4cef-8517-b78ce9a2d7c0",
+          "width": 20,
+          "x": 1142,
+          "y": 548,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3183,6 +3272,17 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "invisible_hitbox",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -3226,6 +3326,9 @@
           },
           {
             "objectName": "water_hitbox"
+          },
+          {
+            "objectName": "invisible_hitbox"
           },
           {
             "objectName": "block_planks"
@@ -4621,6 +4724,90 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "crate_movable",
+                "invisible_hitbox",
+                "water_hitbox",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "crate_movable",
+                "=",
+                "spawn_area.X()",
+                "=",
+                "spawn_area.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "crate_movable",
+                "sand_stacked_M",
+                "water_hitbox",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "crate_hitbox_placeholder",
+                "sand_stacked_M",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "crate_movable",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "crate_movable",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -4807,8 +4994,7 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.3645833333333333,
-        "windowMask": false,
-        "selectedLayer": ""
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
