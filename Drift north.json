@@ -1394,7 +1394,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5800155239905096,
+        "zoomFactor": 0.6622955665506653,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9965,6 +9965,17 @@
               "parameters": [
                 "",
                 "\"SettingsLayer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogue_text",
+                "Text",
+                "=",
+                "VariableString(dlg[Variable(dialogueIndex)].speaker) + \": \" +\nVariableString(dlg[Variable(dialogueIndex)].line)"
               ]
             }
           ]
