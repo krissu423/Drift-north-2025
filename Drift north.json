@@ -1394,7 +1394,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8926462115230602,
+        "zoomFactor": 0.5800155239905096,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7541,14 +7541,14 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Music",
+          "name": "Sound",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Music",
+          "string": "Sound",
           "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "textAlignment": "left",
           "characterSize": 35,
@@ -7571,7 +7571,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Music",
+            "text": "Sound",
             "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -7829,7 +7829,7 @@
             "objectName": "Settings"
           },
           {
-            "objectName": "Music"
+            "objectName": "Sound"
           },
           {
             "objectName": "Sfx"
@@ -10044,7 +10044,18 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ModGlobalVolume"
+              },
+              "parameters": [
+                "",
+                "=",
+                "MusicSlider.Value()"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -17003,28 +17014,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "SettingsLayer",
-          "name": "Music",
+          "name": "Sound",
           "persistentUuid": "4817c2fa-5f4d-4ea6-8e3e-1ae4b2e7dcc6",
           "width": 0,
           "x": 947,
           "y": 240,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "SettingsLayer",
-          "name": "Sfx",
-          "persistentUuid": "ef5d031d-c7c5-42ec-8d64-304a0bd8bcc9",
-          "width": 0,
-          "x": 964,
-          "y": 428,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -17074,22 +17069,6 @@
           "x": 1374,
           "y": 108,
           "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "SettingsLayer",
-          "name": "SFXSlider",
-          "persistentUuid": "3e68fb59-7ac6-4c19-8f85-e2ca11ecdddd",
-          "width": 0,
-          "x": 867,
-          "y": 484,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
