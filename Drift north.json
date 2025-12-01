@@ -95,366 +95,10 @@
   "resources": {
     "resources": [
       {
-        "file": "Assets/Landscape/Sand/stacked/sand-stacked.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/Landscape/Sand/stacked/sand-stacked-TM.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-TM.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/Landscape/Sand/stacked/sand-stacked-BM.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-BM.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/Landscape/Sand/stacked/sand-stacked-TL.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-TL.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/Landscape/Sand/stacked/sand-stacked-BL.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-BL.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/Landscape/Sand/stacked/sand-stacked-MR.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-MR.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "Assets/Landscape/Sand/stacked/sand-stacked-ML.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\Landscape\\Sand\\stacked\\sand-stacked-ML.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "Assets/Characters/Reindeer/reindeer.png",
         "kind": "image",
         "metadata": "",
         "name": "Assets\\Characters\\Reindeer\\reindeer.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "NewTiledSprite2.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"NewTiledSprite2.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "NewTiledSprite2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Box2_Break_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Break_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/572015850c8c8304f54c04f2651dc81c79d6e066d1006d189cba727a1a1d9bd6_Box2_Break_1.png",
-          "name": "Box2_Break_1.png"
-        }
-      },
-      {
-        "file": "assets/Box2_Break_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Break_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/16a57f65c973b78a874bee3833f8b57e20175b74349b84301901bfc96770bc86_Box2_Break_2.png",
-          "name": "Box2_Break_2.png"
-        }
-      },
-      {
-        "file": "assets/Box2_Break_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Break_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/6c3ae888a4ffd78c5c98c6910440c088b9b22b679a52118dc103492eaa670eac_Box2_Break_3.png",
-          "name": "Box2_Break_3.png"
-        }
-      },
-      {
-        "file": "assets/Box2_Break_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Break_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/3a8cee6eeefab111a0faf15287e411ed4fec4a46b0d76f396761cdaa912a7e0b_Box2_Break_4.png",
-          "name": "Box2_Break_4.png"
-        }
-      },
-      {
-        "file": "assets/Box2_Hit_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Hit_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/dd7e194e9bb66c967296fdc6ed37f2424967becda48ffb67a580b74e779b484b_Box2_Hit_1.png",
-          "name": "Box2_Hit_1.png"
-        }
-      },
-      {
-        "file": "assets/Box2_Hit_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Hit_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/9cbce8212515286e0d7f54470023e1e716a8f37e7f938b0ff959d4de978ec9b6_Box2_Hit_2.png",
-          "name": "Box2_Hit_2.png"
-        }
-      },
-      {
-        "file": "assets/Box2_Hit_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Hit_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/0761ed7b1e180323658897262c34206e7881bc82597ab89154a0c77862a3f953_Box2_Hit_3.png",
-          "name": "Box2_Hit_3.png"
-        }
-      },
-      {
-        "file": "assets/Box2_Hit_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Hit_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/d411447b9a334626788b067a3c0452335ae52acdbc2a70ab7c7491f232f83140_Box2_Hit_4.png",
-          "name": "Box2_Hit_4.png"
-        }
-      },
-      {
-        "file": "assets/Box2_Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Box2_Idle.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Items/Crate/690ceb198a197196ab8e0e575ab878f634d3ad3a299c6a6e21a5f0cfd7d54f80_Box2_Idle.png",
-          "name": "Box2_Idle.png"
-        }
-      },
-      {
-        "file": "assets/tiled_background color desert.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_background color desert.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Backgrounds/eb22dccd2cba460a77dbb6efe6c1192fc3356b421598c7fb503d12ed8c188b6c_tiled_background color desert.png",
-          "name": "tiled_background color desert.png"
-        }
-      },
-      {
-        "file": "assets/block planks_double.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "block planks_double.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Props/Decoration/132c0dc2b3af8da7ac54d40fed2ed1f05668dd4709715c6bcdf4d447d36a20f1_block planks_double.png",
-          "name": "block planks_double.png"
-        }
-      },
-      {
-        "file": "assets/block planks_empty.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "block planks_empty.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Props/Decoration/6126f6ff43c4cd35064f6f87b5fe84434582927df875ac272f1e6cdf05d05b77_block planks_empty.png",
-          "name": "block planks_empty.png"
-        }
-      },
-      {
-        "file": "assets/block planks_single.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "block planks_single.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Props/Decoration/db9c84bf9e795f2ebd97e56c833dc3a2de4168b487adef5dd8e9218968853b0d_block planks_single.png",
-          "name": "block planks_single.png"
-        }
-      },
-      {
-        "file": "assets/block planks_warning.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "block planks_warning.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney New Platformer Pack 1.0/Props/Decoration/768a4b8a841d633ff30e573ac6ca4237ebbbdab60dba3e5e58fc397eba5e6d0d_block planks_warning.png",
-          "name": "block planks_warning.png"
-        }
-      },
-      {
-        "file": "assets/Key_Spinning_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Key_Spinning_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/cee296ee6218900f2d5f26cfa4be2efb38ce5c28d8723f4d79717e3b248acda7_Key_Spinning_1.png",
-          "name": "Key_Spinning_1.png"
-        }
-      },
-      {
-        "file": "assets/Key_Spinning_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Key_Spinning_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/baba99de4d7d430369f55dd98b433fae93c98d63c25fb5851dc13752c125ff26_Key_Spinning_2.png",
-          "name": "Key_Spinning_2.png"
-        }
-      },
-      {
-        "file": "assets/Key_Spinning_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Key_Spinning_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/774ce460422f3571dc47822f96f5deb5f1730b603d679bf678986362b5670d9f_Key_Spinning_3.png",
-          "name": "Key_Spinning_3.png"
-        }
-      },
-      {
-        "file": "assets/Key_Spinning_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Key_Spinning_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/0b391d5795178e55ecdab605bb5b27d1143667298f6fe7543d3f55f5bbae62d2_Key_Spinning_4.png",
-          "name": "Key_Spinning_4.png"
-        }
-      },
-      {
-        "file": "assets/Key_Spinning_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Key_Spinning_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/5e222aba9c54517f0315d7b57a279cc09075238f3bd1a6cba580ba92621f6e5b_Key_Spinning_5.png",
-          "name": "Key_Spinning_5.png"
-        }
-      },
-      {
-        "file": "assets/Key_Spinning_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Key_Spinning_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/ec7469d5dd44406252fb69378415fb49c8da4b4adb805ebf51e4a113e9693acf_Key_Spinning_6.png",
-          "name": "Key_Spinning_6.png"
-        }
-      },
-      {
-        "file": "assets/Key_Spinning_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Key_Spinning_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/fc14be3a43180256f22c02fa85c7991d4e1b537de4f0c30f076d3ffd8926acb0_Key_Spinning_7.png",
-          "name": "Key_Spinning_7.png"
-        }
-      },
-      {
-        "file": "assets/Key_Spinning_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Key_Spinning_8.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/4e5d729c89ec42a9ea8df2764882bd1aee77a64364041aad3783394bbc29fb90_Key_Spinning_8.png",
-          "name": "Key_Spinning_8.png"
-        }
-      },
-      {
-        "file": "assets/Door.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Door.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Level/8453897a00e610fec59d71df2332d63fe8355089cccebd28396a2135c42873b4_Door.png",
-          "name": "Door.png"
-        }
-      },
-      {
-        "file": "reindeer1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "reindeer1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "octopus1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "octopus1.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -471,14 +115,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
           "name": "gdevelop-asset-store"
         }
-      },
-      {
-        "file": "Assets/crate.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Assets\\crate.png",
-        "smoothed": false,
-        "userAdded": false
       },
       {
         "file": "Assets/Util/invis.png",
@@ -765,102 +401,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Assets\\Mechanics\\Checkpoint-campfire\\bonfire-lit-1-Sheet-Sheet.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/spawn_area12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "spawn_area12",
         "smoothed": false,
         "userAdded": false
       },
@@ -1482,6 +1022,126 @@
         "name": "Assets\\Mechanics\\Water-bowl.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "Assets/Characters/Octopus/octopus-Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Assets_Characters_Octopus_octopus-Sheet14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Assets\\Characters\\Octopus\\octopus-Sheet14",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1514,7 +1174,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 2.666737490255249,
+        "zoomFactor": 3.477000292103219,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1687,13 +1347,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 16,
+          "depth": 2,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "Octopus",
           "persistentUuid": "a8f11fc3-2493-4741-b675-735d57db1b05",
-          "width": 16,
+          "width": 32,
           "x": 480,
           "y": 400,
           "zOrder": 140,
@@ -5088,7 +4748,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Octopus",
           "type": "Sprite",
@@ -5174,16 +4834,17 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "Assets\\Characters\\Octopus\\octopus-Sheet",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.15,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Characters\\Octopus\\octopus1.png",
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5199,19 +4860,487 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 2
+                            "x": 7,
+                            "y": 15
                           },
                           {
-                            "x": 32,
-                            "y": 2
+                            "x": 31,
+                            "y": 15
                           },
                           {
-                            "x": 32,
+                            "x": 31,
                             "y": 31
                           },
                           {
-                            "x": 0,
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 15
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 7,
                             "y": 31
                           }
                         ]
@@ -8140,6 +8269,23 @@
                         "y": 0
                       },
                       "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Util\\invis-placeholder.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -8724,7 +8870,7 @@
               "parameters": [
                 "Octopus",
                 "Flippable",
-                ""
+                "yes"
               ]
             }
           ]
@@ -8786,7 +8932,7 @@
               "parameters": [
                 "Octopus",
                 "Flippable",
-                "yes"
+                "no"
               ]
             }
           ]
@@ -9381,7 +9527,7 @@
               "parameters": [
                 "Octopus",
                 "=",
-                "Reindeer.Y() + 8"
+                "Reindeer.Y() -5"
               ]
             }
           ]
@@ -10550,7 +10696,7 @@
               "parameters": [
                 "wallDetector_L",
                 "=",
-                "Octopus.Y()+8"
+                "Octopus.Y()+25"
               ]
             },
             {
@@ -10560,7 +10706,7 @@
               "parameters": [
                 "wallDetector_R",
                 "=",
-                "Octopus.X()+17"
+                "Octopus.X()+33"
               ]
             },
             {
@@ -10570,7 +10716,7 @@
               "parameters": [
                 "wallDetector_R",
                 "=",
-                "Octopus.Y()+8"
+                "Octopus.Y()+25"
               ]
             }
           ]
@@ -10960,6 +11106,151 @@
                 "PlatformerObject",
                 "=",
                 "1000"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "onWall",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "wallDetector_R",
+                "ground_hitbox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "isWet",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Octopus",
+                "=",
+                "-90"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "onWall",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "wallDetector_L",
+                "ground_hitbox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Octopus",
+                "isWet",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Octopus",
+                "=",
+                "90"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "wallDetector_L",
+                "ground_hitbox",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "wallDetector_R",
+                "ground_hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Octopus",
+                "=",
+                "0"
               ]
             }
           ]
