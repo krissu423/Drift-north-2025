@@ -81,6 +81,7 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1505,7 +1506,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5427920802473538,
+        "zoomFactor": 0.5079575118131979,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -10542,7 +10543,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.756247719810796,
+        "zoomFactor": 0.9860263907839117,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -17238,18 +17239,6 @@
           "actions": [
             {
               "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"TextLayout\"",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "HideLayer"
               },
               "parameters": [
@@ -17429,36 +17418,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "TypingStarted",
-                "=",
-                "1"
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -17504,17 +17465,6 @@
               "parameters": [
                 "",
                 "\"SettingsLayer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "dialogue_text",
-                "Text",
-                "=",
-                "VariableString(dlg[Variable(dialogueIndex)].speaker) + \": \" +\nVariableString(dlg[Variable(dialogueIndex)].line)"
               ]
             }
           ]
@@ -18155,7 +18105,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3768772036750871,
+        "zoomFactor": 0.33005600491659237,
         "windowMask": false,
         "selectedLayer": ""
       },
