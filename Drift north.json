@@ -1142,6 +1142,30 @@
         "name": "Assets\\Characters\\Octopus\\octopus-Sheet14",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "snow_atlas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_atlas.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "snow_atlas2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow_atlas2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sand_atlas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sand_atlas.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -1174,7 +1198,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 3.477000292103219,
+        "zoomFactor": 2.4141880380204648,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1598,968 +1622,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 112,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "cf03e068-a5f9-4c2f-9c2c-514fe09829de",
-          "width": 16,
-          "x": 832,
-          "y": 448,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "b1e8b62a-5950-4356-a8be-6de7fe6437c0",
-          "width": 0,
-          "x": 832,
-          "y": 432,
-          "zOrder": 64,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "9a6c4524-f9bd-4786-95c9-009f45504ffa",
-          "width": 0,
-          "x": 848,
-          "y": 400,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "aad28269-4c44-48f7-83ec-0202df6072a5",
-          "width": 0,
-          "x": 848,
-          "y": 416,
-          "zOrder": 66,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "5521e118-6d5c-44d9-8a82-c8bfad0f3b42",
-          "width": 32,
-          "x": 848,
-          "y": 432,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "a3fbac64-98de-4889-a9af-dd08d2946199",
-          "width": 16,
-          "x": 880,
-          "y": 432,
-          "zOrder": 69,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "fcc7b718-5245-465c-8a32-5f9ce9dd599a",
-          "width": 0,
-          "x": 880,
-          "y": 448,
-          "zOrder": 70,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "c1b4595c-129f-4ead-b59e-76bef3b4cc0e",
-          "width": 0,
-          "x": 864,
-          "y": 416,
-          "zOrder": 71,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "be8ef504-4188-4696-a4ac-293d286ca73a",
-          "width": 0,
-          "x": 896,
-          "y": 448,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "493c8f9a-b1c9-42cc-ae10-53ebf43506b8",
-          "width": 0,
-          "x": 912,
-          "y": 448,
-          "zOrder": 73,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "a84477e4-8193-4b26-9c5b-7f7ac23158ed",
-          "width": 0,
-          "x": 864,
-          "y": 400,
-          "zOrder": 74,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "90832c41-2404-4350-937b-3a8a37225ab7",
-          "width": 0,
-          "x": 880,
-          "y": 416,
-          "zOrder": 75,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "7ab20544-8abd-4f7e-bef8-bc1a37b540ca",
-          "width": 16,
-          "x": 912,
-          "y": 464,
-          "zOrder": 76,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "67393f18-cb88-4699-9b85-dcb7daac773a",
-          "width": 80,
-          "x": 880,
-          "y": 512,
-          "zOrder": 77,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "4879508d-be0b-4761-a9bc-ab9f27c06660",
-          "width": 0,
-          "x": 928,
-          "y": 480,
-          "zOrder": 78,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "eea52b8a-0147-40e3-b6a2-53a012c89270",
-          "width": 112,
-          "x": 1008,
-          "y": 544,
-          "zOrder": 79,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "f4f929c5-4b0c-470e-9c15-817cbfe9abba",
-          "width": 0,
-          "x": 928,
-          "y": 496,
-          "zOrder": 80,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "e5ff2ae2-2323-4fbf-8ab5-13baa392fe7e",
-          "width": 0,
-          "x": 928,
-          "y": 512,
-          "zOrder": 81,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "03ca2505-2a65-4a17-adf2-d6f6224079e3",
-          "width": 0,
-          "x": 944,
-          "y": 512,
-          "zOrder": 82,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "699eb7ad-368d-4a14-8168-a6e4cff7feb6",
-          "width": 0,
-          "x": 960,
-          "y": 512,
-          "zOrder": 83,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "77d59995-5dc0-4f2e-b299-6473d5a32105",
-          "width": 0,
-          "x": 976,
-          "y": 512,
-          "zOrder": 84,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "83f5c97f-545f-43b8-911e-83e937fb6da3",
-          "width": 0,
-          "x": 976,
-          "y": 528,
-          "zOrder": 85,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "2e13a692-4457-405d-8fdb-6ab84e57bd23",
-          "width": 0,
-          "x": 992,
-          "y": 544,
-          "zOrder": 86,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "eb67089c-df14-4fcb-8ef7-068476788010",
-          "width": 0,
-          "x": 976,
-          "y": 544,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "127a40a4-395b-415c-b9ea-b936d0c14ba1",
-          "width": 0,
-          "x": 1136,
-          "y": 496,
-          "zOrder": 88,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "b7248db2-e41c-47cc-b7e7-31b01e68b125",
-          "width": 0,
-          "x": 1120,
-          "y": 496,
-          "zOrder": 89,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "f0315622-228b-4741-a6ca-f73ec4b346c8",
-          "width": 16,
-          "x": 1120,
-          "y": 512,
-          "zOrder": 90,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "5ac35a20-7b66-4c06-b4de-459c4220a989",
-          "width": 0,
-          "x": 1120,
-          "y": 544,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "8b72f5bf-523d-4404-a8d6-6792203ea0a6",
-          "width": 0,
-          "x": 1136,
-          "y": 560,
-          "zOrder": 92,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 48,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "3a9b5883-c7d1-4234-91fc-5a9a5f1e563d",
-          "width": 16,
-          "x": 1136,
-          "y": 512,
-          "zOrder": 93,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "df49cd0a-091e-4092-85e2-686a2bf3bf9f",
-          "width": 32,
-          "x": 880,
-          "y": 464,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "914edc1f-0d8c-4ddc-b705-2c8ec82b79d8",
-          "width": 48,
-          "x": 928,
-          "y": 528,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "26e0e472-bcf3-4a42-a5d1-1a47cfccdbcc",
-          "width": 1456,
-          "x": 448,
-          "y": 576,
-          "zOrder": 94,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "0079f52b-be19-4d05-9670-9b3561da199a",
-          "width": 32,
-          "x": 800,
-          "y": 560,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "37449c5d-8293-4597-8bd1-f922266fd631",
-          "width": 32,
-          "x": 1152,
-          "y": 560,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 112,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "a4da9648-4f26-40f6-8f30-16ab7b7c73cd",
-          "width": 16,
-          "x": 784,
-          "y": 448,
-          "zOrder": 96,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "393a8286-6722-4397-80bc-a1f9931ca973",
-          "width": 0,
-          "x": 784,
-          "y": 560,
-          "zOrder": 97,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "55e509a3-0ca9-42d0-ac7d-a7e8428f52a1",
-          "width": 0,
-          "x": 784,
-          "y": 432,
-          "zOrder": 75,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "9a72aa23-e684-4d20-b911-8145a5e741ee",
-          "width": 0,
-          "x": 736,
-          "y": 432,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "1d935b08-16ca-4999-8d5d-0161ce191743",
-          "width": 32,
-          "x": 752,
-          "y": 432,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "4d5eee98-38b1-408f-bdb7-24c227f18943",
-          "width": 16,
-          "x": 736,
-          "y": 448,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "185f0e80-29c9-4e48-8cf8-e194556bb03e",
-          "width": 0,
-          "x": 736,
-          "y": 480,
-          "zOrder": 97,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "e95d079b-7e18-40ee-b998-349387c07fd5",
-          "width": 32,
-          "x": 704,
-          "y": 480,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "2733fff9-b7ad-4f6f-9c72-6e5a81d82032",
-          "width": 0,
-          "x": 688,
-          "y": 480,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "907f7c05-da8b-42fe-ab14-9578f579729d",
-          "width": 16,
-          "x": 688,
-          "y": 496,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "d81549f8-efc5-4627-a03c-75d0078a96e0",
-          "width": 0,
-          "x": 688,
-          "y": 528,
-          "zOrder": 97,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "738d7fc6-c29a-4691-a42e-75f1e7aff545",
-          "width": 112,
-          "x": 576,
-          "y": 528,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "19f1e822-131f-47cd-8a30-22d424d7087f",
-          "width": 32,
-          "x": 752,
-          "y": 448,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "8e5e66cd-b6b2-46a2-9d5f-9f52435eccee",
-          "width": 0,
-          "x": 1200,
-          "y": 512,
-          "zOrder": 88,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "777579cf-a00c-4abb-96bd-8d3fb871dda1",
-          "width": 0,
-          "x": 1184,
-          "y": 512,
-          "zOrder": 89,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "bb99f23c-a050-4e62-803c-13577732336a",
-          "width": 16,
-          "x": 1184,
-          "y": 528,
-          "zOrder": 90,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "45291ae4-c6eb-430b-9bcb-bd983f013dfd",
-          "width": 0,
-          "x": 1184,
-          "y": 560,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "0f267b57-0bfa-41fb-9787-1769a735c2b6",
-          "width": 16,
-          "x": 1200,
-          "y": 528,
-          "zOrder": 93,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "2f9eefed-ee06-46e7-a1ce-8723c869950d",
-          "width": 688,
-          "x": 1216,
-          "y": 560,
-          "zOrder": 98,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "b4fd884b-7350-4a1c-b664-2fae0b5ae1f8",
-          "width": 0,
-          "x": 1200,
-          "y": 560,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "41a1f010-4ec0-4b4a-a851-6a84e9e838a1",
-          "width": 304,
-          "x": 832,
-          "y": 560,
-          "zOrder": 91,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "fe557236-7b60-4478-a147-236d51cce93e",
-          "width": 48,
-          "x": 704,
-          "y": 496,
-          "zOrder": 67,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "7bc500ca-7705-4831-b85d-a47cd1dd6298",
-          "width": 128,
-          "x": 576,
-          "y": 544,
-          "zOrder": 94,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 16,
           "keepRatio": true,
           "layer": "",
@@ -2652,39 +1714,6 @@
           "x": 432,
           "y": 544,
           "zOrder": 101,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "4db43d86-7a52-42de-9d80-6aa82718306c",
-          "width": 0,
-          "x": 560,
-          "y": 528,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "b1557c42-5211-4353-8843-7ba73b3ba505",
-          "width": 16,
-          "x": 560,
-          "y": 544,
-          "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3176,295 +2205,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "2df295f6-874c-421d-9b7b-30c184509264",
-          "width": 368,
-          "x": 16,
-          "y": 576,
-          "zOrder": 103,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "7ae94085-2fb9-4974-997b-18be22ef0af4",
-          "width": 176,
-          "x": 208,
-          "y": 560,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "04a559f5-0414-430b-9477-dd06bd1162fb",
-          "width": 112,
-          "x": 448,
-          "y": 560,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "0954334d-f03e-4e7b-96b1-06f5ca5223cc",
-          "width": 0,
-          "x": 560,
-          "y": 560,
-          "zOrder": 115,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 48,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "db68ab65-6c18-4191-a54c-715d1b800a45",
-          "width": 16,
-          "x": 192,
-          "y": 512,
-          "zOrder": 93,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "b628f34e-0660-4647-8a4a-e7e8675b9282",
-          "width": 0,
-          "x": 192,
-          "y": 560,
-          "zOrder": 116,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "9063538b-4344-4c98-9c2f-41e39e779d64",
-          "width": 0,
-          "x": 192,
-          "y": 496,
-          "zOrder": 65,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "7de97770-d783-4755-aaf4-eab2eb491908",
-          "width": 176,
-          "x": 16,
-          "y": 496,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 176,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "6543eeda-582f-4af6-9cdd-3a1f333326f6",
-          "width": 64,
-          "x": 72,
-          "y": 456,
-          "zOrder": 116,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "0a5ae28a-150f-4892-9ad6-6f26a46e6835",
-          "width": 1056,
-          "x": 448,
-          "y": 672,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "fb835518-5e44-41b9-9b29-0310cd0a017b",
-          "width": 368,
-          "x": 16,
-          "y": 672,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "39098473-7b11-4e4b-be08-2da7185b30b0",
-          "width": 0,
-          "x": 432,
-          "y": 672,
-          "zOrder": 117,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "90e7cbeb-fe8d-4f93-890e-24696210581e",
-          "width": 12,
-          "x": 383,
-          "y": 672,
-          "zOrder": 117,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedY": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "e20a00b0-968c-4582-b739-79ac761dea82",
-          "width": 0,
-          "x": 432,
-          "y": 560,
-          "zOrder": 117,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "flippedY": true,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "09bf607c-ef9c-46f3-bb9f-0dc66df94e4d",
-          "width": 11,
-          "x": 384,
-          "y": 560,
-          "zOrder": 117,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "62d3db2f-c03f-4d07-957d-e1397ae3a4cc",
-          "width": 16,
-          "x": 432,
-          "y": 576,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "c71f5692-f646-407e-b969-de642801292f",
-          "width": 11,
-          "x": 384,
-          "y": 576,
-          "zOrder": 119,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -3853,40 +2593,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 160,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "2611a25a-776c-4ed4-b6aa-6dfabd1bb24e",
-          "width": 560,
-          "x": 432,
-          "y": 528,
-          "zOrder": 137,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "b012ef49-80b1-4753-87e7-e4e49b9bc8c5",
-          "width": 378,
-          "x": 16,
-          "y": 560,
-          "zOrder": 138,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -3897,23 +2603,6 @@
           "x": 432,
           "y": 528,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "ffafa88b-1211-4d76-adc8-9569fd37fa31",
-          "width": 656,
-          "x": 992,
-          "y": 624,
-          "zOrder": 137,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3990,142 +2679,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "3b119238-abfe-4707-9fa8-59fe8ea8f058",
-          "width": 16,
-          "x": 1504,
-          "y": 688,
-          "zOrder": 144,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "6729cd2c-7ff3-49b9-9095-abbee844b376",
-          "width": 16,
-          "x": 1504,
-          "y": 720,
-          "zOrder": 145,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "1232fea7-75f7-4224-9773-7da942e087d7",
-          "width": 384,
-          "x": 1520,
-          "y": 720,
-          "zOrder": 146,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "63de9810-caff-4ddc-9203-a6a3984749c9",
-          "width": 0,
-          "x": 1904,
-          "y": 560,
-          "zOrder": 147,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 400,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "67a51068-0f37-4674-be60-cde191c6199f",
-          "width": 16,
-          "x": 1696,
-          "y": 480,
-          "zOrder": 148,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "59a117ce-86ce-4b24-b993-b5b676ec1c70",
-          "width": 384,
-          "x": 1520,
-          "y": 688,
-          "zOrder": 149,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 144,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "37e99c70-fa10-434e-a0bd-037e49a44ec7",
-          "width": 16,
-          "x": 1904,
-          "y": 576,
-          "zOrder": 150,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "7898d5ce-0d27-4aaa-a1fe-5a54c71d73d1",
-          "width": 0,
-          "x": 1904,
-          "y": 720,
-          "zOrder": 151,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 16,
           "keepRatio": true,
           "layer": "",
@@ -4185,23 +2738,6 @@
           "x": -512,
           "y": 64,
           "zOrder": -4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 48,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "9bdeab93-f5ed-4387-bc4e-b45ce60ca176",
-          "width": 144,
-          "x": 1504,
-          "y": 688,
-          "zOrder": 153,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4387,6 +2923,98 @@
           "x": 496,
           "y": 408,
           "zOrder": 164,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 191,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_tilemap",
+          "persistentUuid": "9298edbb-5ae7-4157-b8e8-24ed1bdf5b1e",
+          "width": 373,
+          "x": 21,
+          "y": 497,
+          "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":24,\"dimY\":12,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[6,7,7,7,7,7,7,7,7,7,7,8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[11,12,12,12,12,12,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[11,12,12,12,12,12,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[11,12,12,12,12,12,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[11,12,12,12,12,12,12,12,12,12,12,12,1073741841,1073741841,1073741841,1073741841,1073741841,1073741841,1073741841,1073741841,1073741841,1073741841,1073741841,1073741842],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "sand_tilemap",
+          "persistentUuid": "986df2a0-837d-4733-8bcc-4f62c74c9c78",
+          "width": 0,
+          "x": 432,
+          "y": 400,
+          "zOrder": 166,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":93,\"dimY\":21,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,6,8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,6,7,7,8,-1,-1,6,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,1073741836,1073741836,1073741837,-1,-1,11,12,12,12,7,8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,1073741836,1073741836,1073741837,-1,-1,11,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,6,7,7,12,1073741836,1073741836,1073741837,-1,-1,11,12,12,12,12,12,8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,1073741836,1073741836,1073741837,-1,-1,11,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,6,8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,1073741836,1073741836,1073741837,-1,-1,11,12,12,12,12,12,12,7,7,8,-1,-1,-1,-1,-1,-1,-1,-1,11,13,-1,-1,6,8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,6,7,7,7,7,7,7,7,12,12,12,12,1073741836,1073741836,1073741837,-1,-1,11,12,12,12,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,11,13,-1,-1,11,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,12,12,12,12,12,12,12,12,1073741836,1073741836,1073741837,-1,-1,11,12,12,12,12,12,12,12,12,12,7,7,7,7,7,7,7,7,12,13,-1,-1,11,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1],[1073741840,1073741841,1073741841,1073741841,1073741841,1073741841,1073741841,1073741841,12,12,12,12,12,12,12,12,12,12,12,12,1073741836,1073741836,1073741836,1073741841,1073741841,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,1073741841,1073741841,12,12,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "3524570f-86d8-4733-b300-85265dac1440",
+          "width": 0,
+          "x": 1008,
+          "y": 576,
+          "zOrder": 167,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "0e0c1ae4-d3f3-48e5-aad5-a9aba47567dd",
+          "width": 0,
+          "x": 1184,
+          "y": 320,
+          "zOrder": 168,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "c8c90387-aa82-44cd-8f31-43a9a58e4737",
+          "width": 32,
+          "x": 1120,
+          "y": 496,
+          "zOrder": 170,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8292,6 +6920,29 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "sand_tilemap",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "atlasImage": "sand_atlas.png",
+            "rowCount": 5,
+            "columnCount": 5,
+            "tileSize": 16,
+            "tilesWithHitBox": "6,7,8,13,12,11,16,17,18"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -8314,6 +6965,9 @@
           },
           {
             "objectName": "sand_stacked_TM"
+          },
+          {
+            "objectName": "sand_tilemap"
           },
           {
             "objectName": "sand_stacked_BM"
@@ -11621,7 +10275,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5800155239905371,
+        "zoomFactor": 0.7315786463753716,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -11935,7 +10589,7 @@
           "layer": "",
           "name": "Octopus",
           "persistentUuid": "6ae573df-570f-4c6e-b1b5-a55a09223714",
-          "width": 16,
+          "width": 32,
           "x": 64,
           "y": 736,
           "zOrder": 2,
@@ -12129,74 +10783,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "fa016fbb-fb34-49bc-be1c-8960ef859d66",
-          "width": 16,
-          "x": 0,
-          "y": 528,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "5c7d1d8a-b848-4511-968c-a834d9d1dc3b",
-          "width": 592,
-          "x": 16,
-          "y": 528,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "dfe8372e-39c7-4d27-b2c1-934c83c196bb",
-          "width": 16,
-          "x": 0,
-          "y": 464,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "a878d841-42cd-4914-ac84-35e138717cf5",
-          "width": 736,
-          "x": 16,
-          "y": 464,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90,
           "customSize": true,
           "depth": 1,
@@ -12217,173 +10803,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "0adb39d2-ea25-42a0-afeb-5ae59b8addfe",
-          "width": 144,
-          "x": 608,
-          "y": 528,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "48e96c44-edaa-4209-add6-078e6fa0f9c5",
-          "width": 112,
-          "x": 624,
-          "y": 544,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "5f5a0457-2205-487d-a347-0b0a4c4471ad",
-          "width": 0,
-          "x": 608,
-          "y": 560,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "89f866be-33ad-47c6-b9ce-630343781a29",
-          "width": 0,
-          "x": 736,
-          "y": 544,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "6bd675df-edf8-4c93-a42a-e02cdfda4c70",
-          "width": 16,
-          "x": 736,
-          "y": 464,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "425b51f0-f642-4e06-8105-ee4b09295369",
-          "width": 128,
-          "x": 624,
-          "y": 544,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "158d027b-25bc-450f-b541-61679d5c73cc",
-          "width": 128,
-          "x": 624,
-          "y": 560,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "d1151a3c-3bb1-4aa8-9351-70cf07269155",
-          "width": 0,
-          "x": 608,
-          "y": 544,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "b036e14c-6d3b-4857-87ca-bcc6eab87900",
-          "width": 0,
-          "x": 736,
-          "y": 560,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "d6455997-797e-431e-bc9b-7f1d654bae5e",
-          "width": 0,
-          "x": 736,
-          "y": 544,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 64,
           "keepRatio": true,
           "layer": "",
@@ -12394,88 +10813,6 @@
           "x": 736,
           "y": 576,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "95808a6f-f3f9-48bf-9fb1-b355f57c0b32",
-          "width": 720,
-          "x": 16,
-          "y": 464,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "50d37d55-9e91-4ffd-899d-9a805cea96d4",
-          "width": 0,
-          "x": 736,
-          "y": 464,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "b9910d4b-5438-4041-84d3-93a959029856",
-          "width": 0,
-          "x": 16,
-          "y": 464,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "da0366a3-7715-47c6-b88e-fec622892568",
-          "width": 0,
-          "x": 0,
-          "y": 464,
-          "zOrder": 32,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "d8adce23-35f5-42c6-816b-7337fee2b34a",
-          "width": 0,
-          "x": 16,
-          "y": 464,
-          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12560,40 +10897,6 @@
           "x": 704,
           "y": 640,
           "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 112,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "a16da51c-bd39-4237-80a6-b0d9e752117b",
-          "width": 144,
-          "x": 608,
-          "y": 464,
-          "zOrder": 36,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ground_hitbox",
-          "persistentUuid": "cfd6dcc6-3ef0-42b0-99e9-80dc41891141",
-          "width": 608,
-          "x": 0,
-          "y": 464,
-          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12718,264 +11021,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "7f6d71a7-7b9a-47b4-9958-58212ae98d37",
-          "width": 128,
-          "x": 736,
-          "y": 560,
-          "zOrder": 45,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "2ec77a82-bf8d-4045-92b2-a23da62ac0c5",
-          "width": 80,
-          "x": 768,
-          "y": 544,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "b5c43b74-5550-4278-be99-579ff8e9c190",
-          "width": 0,
-          "x": 848,
-          "y": 544,
-          "zOrder": 48,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "37e72df4-7947-44fa-93cf-1b5ac6fd20b9",
-          "width": 0,
-          "x": 848,
-          "y": 560,
-          "zOrder": 49,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "a2c7e23b-7d76-499c-82a9-5e65a703f552",
-          "width": 0,
-          "x": 736,
-          "y": 544,
-          "zOrder": 50,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "39f8c014-2c7d-4006-b3bb-1e73ab39c339",
-          "width": 0,
-          "x": 752,
-          "y": 544,
-          "zOrder": 51,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BM",
-          "persistentUuid": "e66b2acc-6228-426a-99e8-8d3fdd6c9eda",
-          "width": 96,
-          "x": 960,
-          "y": 544,
-          "zOrder": 52,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "a80782a7-07a7-43bc-a513-1089dcf00246",
-          "width": 0,
-          "x": 944,
-          "y": 544,
-          "zOrder": 53,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_BC",
-          "persistentUuid": "3e7c6b3f-b655-4afd-9e77-42ac5b3e74f5",
-          "width": 0,
-          "x": 1056,
-          "y": 544,
-          "zOrder": 54,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_M",
-          "persistentUuid": "9f364cd8-5c7c-4445-8e06-ad2663eecf6c",
-          "width": 96,
-          "x": 960,
-          "y": 464,
-          "zOrder": 55,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_ML",
-          "persistentUuid": "dfe28a5f-5088-47e3-992f-b56f7b6bdf22",
-          "width": 16,
-          "x": 944,
-          "y": 464,
-          "zOrder": 56,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_MR",
-          "persistentUuid": "1280da7d-ad8b-413a-92aa-874e57b35ccd",
-          "width": 16,
-          "x": 1056,
-          "y": 464,
-          "zOrder": 57,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TM",
-          "persistentUuid": "ed746b9e-e836-4413-9810-6d8dee23320f",
-          "width": 96,
-          "x": 960,
-          "y": 448,
-          "zOrder": 58,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "f10dccd3-af4f-45c7-937f-8ac5f41bb2c8",
-          "width": 0,
-          "x": 944,
-          "y": 448,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "flippedX": true,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "sand_stacked_TC",
-          "persistentUuid": "71601375-0084-4983-885d-29e53394657e",
-          "width": 0,
-          "x": 1056,
-          "y": 448,
-          "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 80,
           "keepRatio": true,
           "layer": "",
           "name": "Door",
           "persistentUuid": "f1041ef8-5475-4825-b2aa-06072906ad5f",
           "width": 80,
-          "x": 736,
+          "x": 752,
           "y": 464,
           "zOrder": 61,
           "numberProperties": [],
@@ -13062,6 +11114,27 @@
           "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "snow_tilemap",
+          "persistentUuid": "121e3cab-7821-4747-9173-b2552bc3aa9a",
+          "width": 0,
+          "x": 0,
+          "y": 448,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":16,\"tileHeight\":16,\"dimX\":67,\"dimY\":8,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,6,7,7,7,7,7,7,8],[6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,12,12,12,13],[11,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,12,12,12,12,12,12,13],[16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,12,12,12,12,12,12,12,12,12,12,7,7,7,7,7,7,8,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,18],[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,18,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]]}]}"
+            }
+          ],
           "initialVariables": []
         }
       ],
@@ -13493,7 +11566,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Assets\\Characters\\Octopus\\octopus1.png",
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -13510,19 +11583,487 @@
                         [
                           {
                             "x": 0,
-                            "y": 2
+                            "y": 15
                           },
                           {
                             "x": 32,
-                            "y": 2
+                            "y": 15
                           },
                           {
                             "x": 32,
-                            "y": 31
+                            "y": 32
                           },
                           {
                             "x": 0,
-                            "y": 31
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Characters\\Octopus\\octopus-Sheet14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 15
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -16312,6 +14853,29 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "snow_tilemap",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "content": {
+            "atlasImage": "snow_atlas2.png",
+            "rowCount": 5,
+            "columnCount": 5,
+            "tileSize": 16,
+            "tilesWithHitBox": "6,7,8,13,12,11,16,17,18"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -16349,6 +14913,9 @@
           },
           {
             "objectName": "sand_stacked_BC"
+          },
+          {
+            "objectName": "snow_tilemap"
           },
           {
             "objectName": "planks_stacked_M"
