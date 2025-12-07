@@ -1292,6 +1292,18 @@
         "name": "forest_tilemap.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Desert Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Desert Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Desert/Background/cddbec3295ecf88530dd334aa8b50a84d9cc26cc022a8ac981aa34f8e53dfb9f_Desert Background.png",
+          "name": "Desert Background.png"
+        }
       }
     ]
   },
@@ -1324,7 +1336,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.4201106106002832,
+        "zoomFactor": 0.4163025217733628,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -2885,14 +2897,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 976,
+          "height": 944,
           "keepRatio": true,
           "layer": "",
           "name": "SkyBG",
           "persistentUuid": "343e33db-64bc-4f55-89a8-6fe76501ccd8",
-          "width": 3152,
-          "x": -512,
-          "y": 64,
+          "width": 3584,
+          "x": -960,
+          "y": -240,
           "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5949,7 +5961,7 @@
           "assetStoreId": "",
           "height": 32,
           "name": "SkyBG",
-          "texture": "Assets\\Area-BG\\t0jyLw.png",
+          "texture": "Desert Background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -7068,6 +7080,66 @@
             "tileSize": 16,
             "tilesWithHitBox": "6,11,16,7,12,17,8,13,18"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c77e27618d2e60931794bb3740f809f5b4926ddf9f423cb25d42b797401be143",
+          "name": "Desert_Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Desert Background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 960
+                          },
+                          {
+                            "x": 0,
+                            "y": 960
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7228,6 +7300,9 @@
           },
           {
             "objectName": "wallDetector_R"
+          },
+          {
+            "objectName": "Desert_Background"
           }
         ]
       },
@@ -10400,7 +10475,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.3289726923269145,
+        "zoomFactor": 1.0192755261489728,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -19260,7 +19335,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.6215651521553271,
+        "zoomFactor": 0.26167741169923325,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -19793,23 +19868,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 503,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SkyBG",
-          "persistentUuid": "54bbf3f1-86db-4375-9674-e9f530883bf1",
-          "width": 2293,
-          "x": -91,
-          "y": 22,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -19991,6 +20049,23 @@
           "x": 1808,
           "y": 224,
           "zOrder": 196,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 992,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Desert_Background",
+          "persistentUuid": "7c6ef391-737c-410e-a382-d5b5b558a75e",
+          "width": 2976,
+          "x": -624,
+          "y": -304,
+          "zOrder": -100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24240,6 +24315,66 @@
             "tileSize": 16,
             "tilesWithHitBox": "6,11,16,7,12,17,8,13,18"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c77e27618d2e60931794bb3740f809f5b4926ddf9f423cb25d42b797401be143",
+          "name": "Desert_Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Desert Background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 960
+                          },
+                          {
+                            "x": 0,
+                            "y": 960
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -24427,6 +24562,9 @@
           },
           {
             "objectName": "deerInst"
+          },
+          {
+            "objectName": "Desert_Background"
           }
         ]
       },
@@ -27625,7 +27763,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 3.1477160928149943,
+        "zoomFactor": 0.36458333333336984,
         "windowMask": false,
         "selectedLayer": ""
       },
