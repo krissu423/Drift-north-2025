@@ -10499,7 +10499,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8081094648116759,
+        "zoomFactor": 1.7327683944533097,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -12605,6 +12605,23 @@
           "x": 1744,
           "y": 272,
           "zOrder": 215,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ground_hitbox",
+          "persistentUuid": "7576f244-22d7-4349-8131-b548f5e32e99",
+          "width": 32,
+          "x": 1888,
+          "y": 320,
+          "zOrder": 216,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
