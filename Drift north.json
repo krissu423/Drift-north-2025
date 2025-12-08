@@ -1328,6 +1328,26 @@
         "name": "..\\..\\..\\..\\..\\..\\Asjandused\\Aseprite\\lever2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Stone Platform4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stone Platform.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Terrain/8d43fc0268490e243d8a113c159d6e3a32cd6be05019ae18d7987e28802bfb87_Stone Platform.png",
+          "name": "Stone Platform.png"
+        }
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -10499,7 +10519,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
+<<<<<<< HEAD
+        "zoomFactor": 1.467997209140247,
+=======
         "zoomFactor": 1.8515977016559262,
+>>>>>>> b27071fc52b88ff0e1173b26fb99efe1202d27c5
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -20228,7 +20252,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5995738389111507,
+        "zoomFactor": 0.5995738389111511,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -20237,7 +20261,7 @@
           "name": "TankWalls",
           "objects": [
             {
-              "name": "tankWalls"
+              "name": "tankWalls2"
             }
           ]
         }
@@ -20651,61 +20675,10 @@
           "name": "tankWater",
           "opacity": 133,
           "persistentUuid": "1b9f43e2-8089-4157-8d19-c6883399fcc1",
-          "width": 54,
+          "width": 63,
           "x": 721,
           "y": 463,
           "zOrder": 153,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "tankWalls",
-          "persistentUuid": "08fae798-c99a-49f3-919e-e298ae9d23e0",
-          "width": 41,
-          "x": 750,
-          "y": 469,
-          "zOrder": 154,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "tankWalls",
-          "persistentUuid": "4644b834-1a1d-46a7-bf3e-5b172f98daba",
-          "width": 41,
-          "x": 705,
-          "y": 468,
-          "zOrder": 154,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "tankWallsbottom",
-          "persistentUuid": "74426241-6873-41c9-bf6e-0dfe9ac0cee3",
-          "width": 54,
-          "x": 720,
-          "y": 492,
-          "zOrder": 155,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20816,7 +20789,7 @@
           "name": "sand_tilemap",
           "persistentUuid": "c1e244bc-5de5-4148-8037-4da9c43b1dd9",
           "width": 0,
-          "x": -80,
+          "x": -96,
           "y": 224,
           "zOrder": 190,
           "numberProperties": [],
@@ -20959,6 +20932,57 @@
           "x": -624,
           "y": -304,
           "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tankWallsbottom",
+          "persistentUuid": "6e73481d-8b21-480a-91c8-df394800847f",
+          "width": 64,
+          "x": 720,
+          "y": 480,
+          "zOrder": 197,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tankWalls2",
+          "persistentUuid": "699fea63-9a8c-45da-9c5b-f5cff6ccf50b",
+          "width": 32,
+          "x": 776,
+          "y": 472,
+          "zOrder": 198,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tankWalls2",
+          "persistentUuid": "1d1f5b2d-9ca8-4573-825e-1cd5616d328e",
+          "width": 32,
+          "x": 712,
+          "y": 472,
+          "zOrder": 198,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -24879,23 +24903,6 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "f91c3c26a7e69da7f2b52fd54f3c9d9ce47042a4876575c7afc552f8288e18a1",
-          "name": "tankWalls",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Platform",
-              "useMultipleDirections": false,
-              "directions": []
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "f91c3c26a7e69da7f2b52fd54f3c9d9ce47042a4876575c7afc552f8288e18a1",
           "name": "tankWallsbottom",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -25268,6 +25275,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "f91c3c26a7e69da7f2b52fd54f3c9d9ce47042a4876575c7afc552f8288e18a1",
+          "name": "tankWalls2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stone Platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 5
+                          },
+                          {
+                            "x": 0,
+                            "y": 5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -25439,7 +25506,7 @@
             "objectName": "tankWater"
           },
           {
-            "objectName": "tankWalls"
+            "objectName": "tankWalls2"
           },
           {
             "objectName": "tankWallsbottom"
@@ -28286,6 +28353,131 @@
                 "",
                 "\"Menu\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Octopus",
+                "TankWalls",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Octopus",
+                "TankWalls",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "throwInst"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"LShift\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "throwInst",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "throwInst"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "deerInst"
               ]
             }
           ]
