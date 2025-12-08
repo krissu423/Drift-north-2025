@@ -10499,7 +10499,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.7327683944533097,
+        "zoomFactor": 1.8515977016559262,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -11883,23 +11883,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 80,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Door",
-          "persistentUuid": "26e83e7f-b61a-40bd-9982-e1fd62437256",
-          "width": 89,
-          "x": 215,
-          "y": 416,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 270,
           "customSize": true,
           "depth": 1,
@@ -12622,6 +12605,23 @@
           "x": 1888,
           "y": 320,
           "zOrder": 216,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Door2",
+          "persistentUuid": "74747768-e51b-45a6-a3e0-4041ad08a696",
+          "width": 80,
+          "x": 224,
+          "y": 416,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16762,6 +16762,66 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "22e38bf3caa71612429147d3219d913e2695738b477defc9923887c3bca5d579",
+          "name": "Door2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\Mechanics\\Door\\Door.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 80,
+                            "y": 67
+                          },
+                          {
+                            "x": 280,
+                            "y": 67
+                          },
+                          {
+                            "x": 280,
+                            "y": 320
+                          },
+                          {
+                            "x": 80,
+                            "y": 320
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -16853,6 +16913,9 @@
           },
           {
             "objectName": "Door"
+          },
+          {
+            "objectName": "Door2"
           },
           {
             "objectName": "NewSprite"
