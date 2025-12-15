@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 242,
+    "build": 249,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -86,6 +86,7 @@
       "puzzle"
     ],
     "playableDevices": [
+      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -1868,9 +1869,28 @@
         "name": "Assets\\Characters\\Octopus\\octopus-jumping.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stone Platform4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stone Platform.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Terrain/8d43fc0268490e243d8a113c159d6e3a32cd6be05019ae18d7987e28802bfb87_Stone Platform.png",
+          "name": "Stone Platform.png"
+        }
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [],
   "objectsFolderStructure": {
@@ -2129,6 +2149,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -2260,6 +2281,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -2324,6 +2346,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -2391,13 +2414,21 @@
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
+<<<<<<< HEAD
         "zoomFactor": 0.33005600491661835,
         "windowMask": false
+=======
+        "zoomFactor": 0.8081094648116398,
+        "windowMask": false,
+        "selectedLayer": ""
+>>>>>>> 5a54ca42ee8fe439c547cd4736bc168b88165936
       },
       "objectsGroups": [],
       "variables": [
@@ -9520,6 +9551,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9556,6 +9597,16 @@
                 "",
                 "\"Right\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9591,6 +9642,16 @@
                 "Reindeer",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
                 ""
               ]
             }
@@ -9629,6 +9690,16 @@
                 "",
                 "\"Left\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9664,6 +9735,16 @@
                 "Reindeer",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
                 ""
               ]
             }
@@ -9711,6 +9792,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9746,6 +9837,16 @@
               "parameters": [
                 "",
                 "\"d\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
               ]
             }
           ],
@@ -9784,6 +9885,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9820,6 +9931,16 @@
                 "",
                 "\"a\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -9855,6 +9976,16 @@
                 "Octopus",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
                 ""
               ]
             }
@@ -12332,6 +12463,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -12385,6 +12517,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -12449,6 +12582,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -12502,6 +12636,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -12555,6 +12690,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -21907,6 +22043,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -21960,6 +22097,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -22024,6 +22162,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -22077,6 +22216,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -22130,6 +22270,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -22260,15 +22401,21 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
+<<<<<<< HEAD
         "zoomFactor": 0.6197916666667111,
         "windowMask": false
+=======
+        "zoomFactor": 0.9860263907838965,
+        "windowMask": false,
+        "selectedLayer": ""
+>>>>>>> 5a54ca42ee8fe439c547cd4736bc168b88165936
       },
       "objectsGroups": [
         {
           "name": "TankWalls",
           "objects": [
             {
-              "name": "tankWalls"
+              "name": "WallsTank"
             }
           ]
         }
@@ -22549,7 +22696,7 @@
                 {
                   "name": "line",
                   "type": "string",
-                  "value": "Anyway, help me out of this tank. Just throw me out or seomthing."
+                  "value": "Anyway, help me out of this tank. Just throw me out or something."
                 },
                 {
                   "name": "speaker",
@@ -22674,75 +22821,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 33,
-          "keepRatio": true,
-          "layer": "",
-          "name": "tankWater",
-          "opacity": 133,
-          "persistentUuid": "1b9f43e2-8089-4157-8d19-c6883399fcc1",
-          "width": 54,
-          "x": 721,
-          "y": 463,
-          "zOrder": 153,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "tankWalls",
-          "persistentUuid": "08fae798-c99a-49f3-919e-e298ae9d23e0",
-          "width": 41,
-          "x": 750,
-          "y": 469,
-          "zOrder": 154,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "tankWalls",
-          "persistentUuid": "4644b834-1a1d-46a7-bf3e-5b172f98daba",
-          "width": 41,
-          "x": 705,
-          "y": 468,
-          "zOrder": 154,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 16,
-          "keepRatio": true,
-          "layer": "",
-          "name": "tankWallsbottom",
-          "persistentUuid": "74426241-6873-41c9-bf6e-0dfe9ac0cee3",
-          "width": 54,
-          "x": 720,
-          "y": 492,
-          "zOrder": 155,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -22815,8 +22893,8 @@
           "name": "doorInst",
           "persistentUuid": "ca5f775c-5b1d-4409-bf79-26de314a8905",
           "width": 0,
-          "x": 1476,
-          "y": 364,
+          "x": 1576,
+          "y": 352,
           "zOrder": 170,
           "numberProperties": [],
           "stringProperties": [],
@@ -22848,7 +22926,7 @@
           "name": "sand_tilemap",
           "persistentUuid": "c1e244bc-5de5-4148-8037-4da9c43b1dd9",
           "width": 2176,
-          "x": -80,
+          "x": -96,
           "y": 224,
           "zOrder": 190,
           "numberProperties": [],
@@ -22991,6 +23069,75 @@
           "x": -624,
           "y": -304,
           "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 181,
+          "customSize": true,
+          "depth": 1,
+          "height": 21,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BottemTank",
+          "persistentUuid": "3ba9a2b8-d117-48b2-a24e-e8d394a3de1d",
+          "width": 64,
+          "x": 720,
+          "y": 476,
+          "zOrder": 197,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WaterTank",
+          "opacity": 153,
+          "persistentUuid": "e0d71037-6a03-4ce3-8c70-b9831fa507a3",
+          "width": 64,
+          "x": 720,
+          "y": 464,
+          "zOrder": 198,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallsTank",
+          "persistentUuid": "965b86b0-2036-434e-850f-c8affd070c70",
+          "width": 32,
+          "x": 696,
+          "y": 472,
+          "zOrder": 199,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WallsTank",
+          "persistentUuid": "d06da642-b09c-49c8-9058-920d75dc18a9",
+          "width": 32,
+          "x": 760,
+          "y": 472,
+          "zOrder": 199,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -26899,94 +27046,6 @@
         },
         {
           "assetStoreId": "",
-          "height": 32,
-          "name": "tankWater",
-          "texture": "NewTiledSprite3",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "f91c3c26a7e69da7f2b52fd54f3c9d9ce47042a4876575c7afc552f8288e18a1",
-          "name": "tankWalls",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Platform",
-              "useMultipleDirections": false,
-              "directions": []
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "f91c3c26a7e69da7f2b52fd54f3c9d9ce47042a4876575c7afc552f8288e18a1",
-          "name": "tankWallsbottom",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Stone Platform.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 48,
-                            "y": 0
-                          },
-                          {
-                            "x": 48,
-                            "y": 5
-                          },
-                          {
-                            "x": 0,
-                            "y": 5
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "throwInst",
@@ -26996,7 +27055,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Press F on Octopus and use arrow keys to aim",
+          "string": "Hold F on Octopus and use arrow keys to aim",
           "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "textAlignment": "left",
           "characterSize": 20,
@@ -27019,7 +27078,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Press F on Octopus and use arrow keys to aim",
+            "text": "Hold F on Octopus and use arrow keys to aim",
             "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -27039,7 +27098,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Use WASD to move as the Octopus\n\nOctopus can grab items",
+          "string": "Use WASD to move as the Octopus\n\nOctopus can grab items and climb on walls if wet",
           "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "textAlignment": "left",
           "characterSize": 20,
@@ -27062,7 +27121,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Use WASD to move as the Octopus\n\nOctopus can grab items",
+            "text": "Use WASD to move as the Octopus\n\nOctopus can grab items and climb on walls if wet",
             "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -27082,7 +27141,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Press E to open doors with key",
+          "string": "Press E to interact",
           "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
           "textAlignment": "left",
           "characterSize": 20,
@@ -27105,7 +27164,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Press E to open doors with key",
+            "text": "Press E to interact",
             "font": "5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -27300,6 +27359,137 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "WaterTank",
+          "texture": "NewTiledSprite3",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "f91c3c26a7e69da7f2b52fd54f3c9d9ce47042a4876575c7afc552f8288e18a1",
+          "name": "WallsTank",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stone Platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 5
+                          },
+                          {
+                            "x": 0,
+                            "y": 5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "f91c3c26a7e69da7f2b52fd54f3c9d9ce47042a4876575c7afc552f8288e18a1",
+          "name": "BottemTank",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stone Platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 5
+                          },
+                          {
+                            "x": 0,
+                            "y": 5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -27468,15 +27658,6 @@
             "objectName": "Menu_button"
           },
           {
-            "objectName": "tankWater"
-          },
-          {
-            "objectName": "tankWalls"
-          },
-          {
-            "objectName": "tankWallsbottom"
-          },
-          {
             "objectName": "throwInst"
           },
           {
@@ -27490,6 +27671,15 @@
           },
           {
             "objectName": "Desert_Background"
+          },
+          {
+            "objectName": "WaterTank"
+          },
+          {
+            "objectName": "BottemTank"
+          },
+          {
+            "objectName": "WallsTank"
           }
         ]
       },
@@ -27707,6 +27897,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -27769,6 +27969,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -27793,6 +28003,16 @@
               "parameters": [
                 "",
                 "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
               ]
             }
           ],
@@ -27829,6 +28049,16 @@
                 "Reindeer",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
                 ""
               ]
             }
@@ -27876,6 +28106,16 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -27900,6 +28140,16 @@
               "parameters": [
                 "",
                 "\"d\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
+                ""
               ]
             }
           ],
@@ -27936,6 +28186,16 @@
                 "Octopus",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
                 ""
               ]
             }
@@ -27998,6 +28258,16 @@
                 "Octopus",
                 "canMove",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "dialogueActive",
+                "=",
                 ""
               ]
             }
@@ -30321,6 +30591,131 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Octopus",
+                "TankWalls",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Octopus",
+                "TankWalls",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "throwInst"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"LShift\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "throwInst",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"f\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "throwInst"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "deerInst"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -30328,6 +30723,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30381,6 +30777,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30445,6 +30842,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30498,6 +30896,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30551,6 +30950,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -30676,13 +31076,21 @@
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
+<<<<<<< HEAD
         "zoomFactor": 2.3354363533056905,
         "windowMask": false
+=======
+        "zoomFactor": 0.781748642545254,
+        "windowMask": false,
+        "selectedLayer": ""
+>>>>>>> 5a54ca42ee8fe439c547cd4736bc168b88165936
       },
       "objectsGroups": [],
       "variables": [
@@ -37764,6 +38172,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -37817,6 +38226,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -37881,6 +38291,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -37934,6 +38345,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -37987,6 +38399,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -38108,13 +38521,16 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.3645833333333333,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -38195,6 +38611,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -38495,6 +38912,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -39437,6 +39855,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [],
           "propertyDescriptors": [],
           "variants": []
@@ -42305,6 +42724,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -42380,6 +42800,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -44370,6 +44791,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -44442,7 +44864,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
@@ -46267,6 +46690,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -46326,6 +46750,7 @@
               "initialVariables": []
             }
           ],
+          "editionSettings": {},
           "eventsFunctions": [
             {
               "fullName": "",
@@ -47751,6 +48176,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -47810,7 +48236,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             },
             {
               "areaMaxX": 192,
@@ -48065,6 +48492,7 @@
                   "ambientLightColorB": 200,
                   "ambientLightColorG": 200,
                   "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
                   "camera3DFarPlaneDistance": 10000,
                   "camera3DFieldOfView": 45,
                   "camera3DNearPlaneDistance": 3,
@@ -48124,7 +48552,8 @@
                   "stringProperties": [],
                   "initialVariables": []
                 }
-              ]
+              ],
+              "editionSettings": {}
             }
           ]
         }
